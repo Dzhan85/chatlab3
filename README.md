@@ -1,14 +1,4 @@
-![Rocket.Chat logo](https://upload.wikimedia.org/wikipedia/commons/1/12/Rocket.Chat_Logo.svg)
 
-# The Ultimate Open Source WebChat Platform
-
-[![Rocket.Chat](https://open.rocket.chat/images/join-chat.svg)](https://open.rocket.chat/)
-[![Build Status](https://img.shields.io/travis/RocketChat/Rocket.Chat/master.svg)](https://travis-ci.org/RocketChat/Rocket.Chat)
-[![Project Dependencies](https://david-dm.org/RocketChat/Rocket.Chat.svg)](https://david-dm.org/RocketChat/Rocket.Chat)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/8580571ba024426d9649e9ab389bd5dd)](https://www.codacy.com/app/RocketChat/Rocket-Chat)
-[![Coverage Status](https://coveralls.io/repos/RocketChat/Rocket.Chat/badge.svg)](https://coveralls.io/r/RocketChat/Rocket.Chat)
-[![Code Climate](https://codeclimate.com/github/RocketChat/Rocket.Chat/badges/gpa.svg)](https://codeclimate.com/github/RocketChat/Rocket.Chat)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/RocketChat/Rocket.Chat/raw/master/LICENSE)
 
 
 * [**NEW!** Help Wanted](#help-wanted)
@@ -55,48 +45,6 @@
   * [How to Contribute](#how-to-contribute)
 * [Credits](#credits)
 * [Donate](#donate)
-
-# Help Wanted
-
-At Rocket.Chat, our community drives *everything* we do. The Rocket.Chat team is expanding, and we know no better place to find qualified new team members than *right here* - in our Github  community.
-
-If you are passionate about our project, want to work with a world-leading open source team, and enjoy working remotely at a location of your choice, then we want to talk to you!
-
-Explore current openings below:
-
-- [Lead Security Researcher and Developer](https://rocketchat.recruitee.com/o/lead-security-researcher-and-developer)
-
-- [Sales Engineer](https://rocketchat.recruitee.com/o/sales-engineer)
-
-- [Business Developer/Sales/Channel](https://rocketchat.recruitee.com/o/business-developer-sales-channel)
-
-- [Front-End Developer](https://rocketchat.recruitee.com/o/frontend-developer)
-
-# Community
-Join thousands of members worldwide 24/7 in our [community server](https://open.rocket.chat).
-
-[![Rocket.Chat](https://open.rocket.chat/api/v1/shield.svg?type=channel&name=Rocket.Chat&channel=support)](https://open.rocket.chat/channel/support) for help from our community with general Rocket.Chat questions.
-
-[![Rocket.Chat](https://open.rocket.chat/api/v1/shield.svg?type=channel&name=Rocket.Chat&channel=dev)](https://open.rocket.chat/channel/dev) for developers needing help from the community to developing new features.
-
-You can also join the conversation at [Twitter](https://twitter.com/RocketChat), [Facebook](https://www.facebook.com/RocketChatApp) or [Google Plus](https://plus.google.com/+RocketChatApp).
-
-# Desktop Apps
-Download the Native Cross-Platform Desktop Application at [Rocket.Chat.Electron](https://github.com/RocketChat/Rocket.Chat.Electron/releases)
-
-
-# Mobile Apps
-
-## Native Mobile Apps
-*Note: currently the native apps doesn't support all the features that web does. If you're looking for it, you should download the Cordova apps.*
-
-[![Rocket.Chat on Apple App Store](https://user-images.githubusercontent.com/551004/29770691-a2082ff4-8bc6-11e7-89a6-964cd405ea8e.png)](https://itunes.apple.com/us/app/rocket-chat/id1148741252?mt=8) [![Rocket.Chat on Google Play](https://user-images.githubusercontent.com/551004/29770692-a20975c6-8bc6-11e7-8ab0-1cde275496e0.png)](https://play.google.com/store/apps/details?id=chat.rocket.android)
-
-## Hybrid Mobile Apps (Cordova)
-
-[![Rocket.Chat on Apple App Store](https://user-images.githubusercontent.com/551004/29770691-a2082ff4-8bc6-11e7-89a6-964cd405ea8e.png)](https://itunes.apple.com/us/app/rocket.chat/id1028869439?mt=8) [![Rocket.Chat on Google Play](https://user-images.githubusercontent.com/551004/29770692-a20975c6-8bc6-11e7-8ab0-1cde275496e0.png)](https://play.google.com/store/apps/details?id=com.konecty.rocket.chat)
-
-*Now compatible with all Android devices as old as version 4.0.x - [download here](https://rocket.chat/docs/developer-guides/mobile-apps/), even on BlackBerry Passport!*
 
 
 # Deployment
@@ -413,64 +361,11 @@ Prerequisites:
 Now just clone and start the app:
 
 ```sh
-git clone https://github.com/RocketChat/Rocket.Chat.git
+git clone https://github.com/Dzhan85/chatlab3.git
 cd Rocket.Chat
 meteor npm start
 ```
 
-If you are not a developer and just want to run the server - see [deployment methods](https://rocket.chat/docs/installation/paas-deployments/).
-
-## Branching Model
-
-See [Branches and Releases](https://rocket.chat/docs/developer-guides/branches-and-releases/).
-
-It is based on [Gitflow Workflow](http://nvie.com/posts/a-successful-git-branching-model/), reference section below is derived from Vincent Driessen at nvie.
-
-See also this [Git Workflows Comparison](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) for more details.
-
-## Translations
-We are experimenting [Lingohub](https://translate.lingohub.com/rocketchat/dashboard).
-If you want to help, send an email to support at rocket.chat to be invited to the translation project.
-
-## How to Contribute
-
-Already a JavaScript developer? Familiar with Meteor? [Pick an issue](https://github.com/RocketChat/Rocket.Chat/labels/contrib%3A%20easy), push a PR and instantly become a member of Rocket.Chat's international contributors community.
-
-A lot of work has already gone into Rocket.Chat, but we have much bigger plans for it!
-
-### Contributor License Agreement
-
-Please review and sign our CLA at https://cla-assistant.io/RocketChat/Rocket.Chat
-
-# Credits
-
-Thanks to our core team
-[Aaron Ogle](https://github.com/geekgonecrazy),
-[Bradley Hilton](https://github.com/Graywolf336),
-[Diego Sampaio](https://github.com/sampaiodiego),
-[Gabriel Engel](https://github.com/engelgabriel),
-[Marcelo Schmidt](https://github.com/marceloschmidt),
-[Rodrigo Nascimento](https://github.com/rodrigok),
-[Sing Li](https://github.com/Sing-Li),
-and to hundreds of awesome [contributors](https://github.com/RocketChat/Rocket.Chat/graphs/contributors).
-
-![Emoji One](https://cloud.githubusercontent.com/assets/1986378/24772858/47290a70-1ae9-11e7-9a5a-2913d0002c94.png)
-
-Emoji provided free by [Emoji One](http://emojione.com)
-
-![BrowserStack](https://cloud.githubusercontent.com/assets/1986378/24772879/57d57b88-1ae9-11e7-98b4-4af824b47933.png)
-
-Testing with [BrowserStack](https://www.browserstack.com)
 
 
 
-# Donate
-
-Rocket.Chat will be free forever, but you can help us speed-up the development!
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZL94ZE6LGVUSN)
-
-[![Bitcoins](https://github.com/RocketChat/Rocket.Chat.Docs/blob/master/1.%20Contributing/Donating/coinbase.png?raw=true)](https://www.coinbase.com/checkouts/ac2fa967efca7f6fc1201d46bdccb875)
-
-
-[BountySource](https://www.bountysource.com/teams/rocketchat)
